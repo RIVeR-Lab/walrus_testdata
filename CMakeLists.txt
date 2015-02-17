@@ -9,6 +9,6 @@ catkin_package()
 ## Install ##
 #############
 
-install(DIRECTORY kinect2
+install(DIRECTORY kinectv2
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
