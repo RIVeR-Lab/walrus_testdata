@@ -3,8 +3,8 @@ sensor:
   vertical: [0.0, -1.0, 0.0]
 
 stairs:
-  origin: [0.0, 0.0, 4.47]
-  direction: [0.0, 0.0, 1.0]
-  rise: 0.184
-  run: 0.273
-  width: 1.1684
+  - origin: [0.0, 0.77, 4.47]
+    direction: [0.0, 0.0, 1.0]
+    rise: 0.184
+    run: 0.273
+    width: 1.1684

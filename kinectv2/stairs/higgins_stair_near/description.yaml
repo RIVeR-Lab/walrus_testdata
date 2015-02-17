@@ -1,10 +1,10 @@
 sensor:
-  height: 1.0
   vertical: [0.0, -1.0, 0.0]
 
 stairs:
-  origin: [0.0, 0.0, 0.762]
-  direction: [0.0, 0.0, 1.0]
-  rise: 0.184
-  run: 0.273
-  width: 1.1684
+  # base of stairs was [0.0, 1.0, 0.762], but misses first stair
+  - origin: [-0.05, 0.62, 1.035]
+    direction: [0.0, 0.0, 1.0]
+    rise: 0.184
+    run: 0.273
+    width: 1.1684
