@@ -4,7 +4,7 @@ sensor:
 
 stairs:
   - origin: [0.0, 0.77, 4.47]
-    direction: [0.0, 0.0, 1.0]
+    direction: [0.065, -0.02, 0.99]
     rise: 0.184
     run: 0.273
     width: 1.1684
