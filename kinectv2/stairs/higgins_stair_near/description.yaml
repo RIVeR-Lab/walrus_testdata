@@ -8,3 +8,5 @@ stairs:
     rise: 0.184
     run: 0.273
     width: 1.1684
+    num_stairs: [9, 10]
+    can_miss_first_stair: true
