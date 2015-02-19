@@ -1,10 +1,9 @@
 sensor:
-  height: 1.0
   vertical: [0.0, -1.0, 0.0]
 
 stairs:
-  - origin: [0.0, 0.77, 4.47]
-    direction: [0.065, -0.02, 0.99]
+  - origin: [0.04, 0.77, 4.52]
+    direction: [0.07, -0.02, 0.99]
     rise: 0.184
     run: 0.273
     width: 1.1684
