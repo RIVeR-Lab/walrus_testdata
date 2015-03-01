@@ -23,6 +23,7 @@ int main (int argc, char** argv) {
   while(ros::ok()) {
     for(int i = 0; i < clouds.size(); ++i) {
       clouds[i].header.stamp = ros::Time::now();
+      clouds[i].header.frame_id = "sensor_frame";
       pub.publish(clouds[i]);
       ros::Duration(2.0).sleep();
       ros::spinOnce();
